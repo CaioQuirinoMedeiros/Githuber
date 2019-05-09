@@ -34,23 +34,6 @@ const Routes = (userLogged = false) =>
             }
           }
         ),
-        /* User: createBottomTabNavigator(
-          {
-            Repositories,
-            Organizations
-          },
-          {
-            tabBarOptions: {
-              showIcon: true,
-              showLabel: false,
-              activeTintColor: colors.white,
-              inactiveTintColor: colors.whiteTransparent,
-              style: {
-                backgroundColor: colors.secundary
-              }
-            }
-          }
-        ), */
         Issues
       },
       {
