@@ -77,7 +77,7 @@ export default class Repositories extends Component {
       <View style={styles.container}>
         <Header title={`Repositórios de ${this.state.username}`} />
         {loading ? (
-          <ActivityIndicator style={styles.loading} />
+          <ActivityIndicator size="large" color="#0000ff" />
         ) : (
           this.renderList()
         )}
